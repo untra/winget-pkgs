@@ -13,8 +13,6 @@ InstallModes:
 - silentWithProgress
 - silent
 UpgradeBehavior: uninstallPrevious
-AppsAndFeaturesEntries:
-- DisplayName: StackHawk HawkScan
 Installers:
   - Architecture: neutral
     InstallerType: zip
@@ -26,12 +24,12 @@ PrivacyUrl: https://www.stackhawk.com/privacy-policy
 PackageUrl: https://docs.stackhawk.com/stackhawk-cli
 LicenseUrl: https://www.stackhawk.com/terms-of-service
 ReleaseNotesUrl: https://docs.stackhawk.com/changelog.html
+ShortDescription: KaaKaww! Helping developers to find, triage and fix security bugs!
 Documentations:
   - DocumentLabel: Documentation
   - DocumentUrl: https://docs.stackhawk.com/
   - DocumentLabel: API Docs
   - DocumentUrl: https://apidocs.stackhawk.com
-ShortDescription: KaaKaww! Helping developers to find, triage and fix security bugs!
 Moniker: hawkscan
 Tags:
 - api
