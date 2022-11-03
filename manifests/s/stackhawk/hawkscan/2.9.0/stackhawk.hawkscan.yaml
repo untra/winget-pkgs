@@ -1,0 +1,46 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.singleton.1.4.0.schema.json
+
+PackageIdentifier: stackhawk.hawkscan
+PackageVersion: 2.9.0
+PackageName: hawkscan
+PackageLocale: en-US
+Publisher: StackHawk
+License: Proprietary
+Copyright: (c) 2022 StackHawk
+MinimumOSVersion: 10.0.0.0
+InstallerType: zip
+InstallModes:
+- silentWithProgress
+- silent
+UpgradeBehavior: uninstallPrevious
+AppsAndFeaturesEntries:
+- DisplayName: StackHawk HawkScan
+Installers:
+  - Architecture: neutral
+    InstallerType: zip
+    InstallerUrl: https://download.stackhawk.com/hawk/cli/hawk-2.9.0.zip
+    InstallerSha256: e31ec72c0f7196cd67afad624a14f70bf5a02fa4031191d85cc1d998a39db72f
+PublisherUrl: https://www.stackhawk.com
+PublisherSupportUrl: https://support.stackhawk.com
+PrivacyUrl: https://www.stackhawk.com/privacy-policy
+PackageUrl: https://docs.stackhawk.com/stackhawk-cli
+LicenseUrl: https://www.stackhawk.com/terms-of-service
+ReleaseNotesUrl: https://docs.stackhawk.com/changelog.html
+Documentations:
+  - DocumentLabel: Documentation
+  - DocumentUrl: https://docs.stackhawk.com/
+  - DocumentLabel: API Docs
+  - DocumentUrl: https://apidocs.stackhawk.com
+ShortDescription: KaaKaww! Helping developers to find, triage and fix security bugs!
+Moniker: hawkscan
+Tags:
+- api
+- application
+- security
+- appsec
+- hawk
+- scan
+- kaakaww
+- stackhawk
+ManifestType: singleton
+ManifestVersion: 1.4.0
